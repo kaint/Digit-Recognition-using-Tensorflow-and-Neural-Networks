@@ -57,6 +57,8 @@ The softmax function is a more generalized logistic activation function which is
 
 The ReLU is the most used activation function in the world right now.Since, it is used in almost all the convolutional neural networks or deep learning.
 
+![image](https://user-images.githubusercontent.com/40559132/42378291-6cf49b58-8144-11e8-949d-4e6e8b2169af.png)
+
 
 As you can see, the ReLU is half rectified (from bottom). f(z) is zero when z is less than zero and f(z) is equal to z when z is above or equal to zero.
 
@@ -67,5 +69,10 @@ The function and its derivative both are monotonic.
 But the issue is that all the negative values become zero immediately which decreases the ability of the model to fit or train from the data properly. That means any negative input given to the ReLU activation function turns the value into zero immediately in the graph, which in turns affects the resulting graph by not mapping the negative values appropriately.
 
 
+# EFFICIENCY
+This such a small model gains 96% accuracy on testing data sets. Although this may differ with your testing accuracy because of random initialization of biases and weights. Because of computational power limitations we are limited to such small convolutional neural network. But testing accuracy may increase when we increase number of parameters (biases and weights).
+
+# ABOUT ME
+I am a computer programmer , pursuing Btech in NIT Kurukshetra and loves to solve programming problems and exploring the exciting possibilities using deep learning. I am interested in solving real life problems using efficient algorithms and computer vision that creates innovative solutions to real-world problems. 
                         
                             
