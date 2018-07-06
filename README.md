@@ -41,6 +41,7 @@ It is used to determine the output of neural network like yes or no. It maps the
 
 ### 1. Sigmoid or Logistic Activation Function
 
+![image](https://user-images.githubusercontent.com/40559132/42378235-356cb8b4-8144-11e8-92da-d28692ff1aa8.png)
 
 The main reason why we use sigmoid function is because it exists between (0 to 1). Therefore, it is especially used for models where we have to predict the probability as an output.Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice.
 
